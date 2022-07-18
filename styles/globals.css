@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  height: 100%;
+} */
+
+html, body {
+  height: 100%;
+  color: #1F2937;
+}
+
+@layer components {
+
+  .preview-container h1 {
+    @apply font-bold text-5xl leading-[4rem] mb-4
+  }
+
+  h2 {
+    @apply font-bold text-4xl leading-[4rem] mb-4
+  }
+
+  .preview-container p {
+    @apply text-xl font-light leading-8
+  }
+
+  code {
+    @apply font-light text-base bg-gray-200 p-1 rounded-lg
+  }
+}
